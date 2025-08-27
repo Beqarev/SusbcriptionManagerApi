@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "UbbL9B847Io=",
+  "success": true,
+  "projectFilePath": "/Users/beqa/Desktop/Projects/SubscriptionManager/SM.Domain/SM.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/beqa/.nuget/packages/microsoft.netcore.app.ref/8.0.13/microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
+    "/Users/beqa/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.13/microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
