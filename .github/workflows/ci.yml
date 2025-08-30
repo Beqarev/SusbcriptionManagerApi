@@ -20,10 +20,10 @@ jobs:
           dotnet-version: '8.0.303' # adjust if you use another version
 
       - name: Restore dependencies
-        run: dotnet restore ./src/SM.Api/SM.Api.csproj
+        run: dotnet restore src/SM.Api/SM.Api.csproj
 
       - name: Build
         run: dotnet build --no-restore --configuration Release
 
       - name: Run tests
-        run: dotnet test ./Tests/SM.Tests/SM.Tests.csproj --no-build --verbosity normal
+        run: dotnet test Tests/SM.Tests/SM.Tests.csproj --no-build --verbosity normal
